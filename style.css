@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  header{
+    border: 2px solid black;
+    padding-left: 25px;
+    background-color: #0C0C0C;
+    color: #FB8B24;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  nav{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+  }
+
+
+.menu{
+    list-style: none;
+    display: flex;  
+    justify-content: space-evenly;
+    padding-top: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #AF47D2 ;
+    text-shadow: 1px 1px 6px black;
+    font-size: large;
+}
+
+section{
+    width: 100%;
+    height: 700px;
+    background-color: #0C0C0C;
+}
+
+.titleSection{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+    color: #FB8B24;
+}
+
+.cards{
+    height: 500px;
+    margin-top: 35px;
+    padding-top: 100px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    border: 2px solid gray;
+    width: 300px;
+    height: 350px;
+    cursor:pointer;
+    box-shadow: 2px 2px 20px 6px wheat;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    
+}
+
+
+.card h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 15px;
+    color: #FB8B24;
+}
+
+.card p{
+    text-align: center;
+    color: gray;
+}
+
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #0C0C0C;
+}
+
+h4{
+    text-align: center;
+    color: #FB8B24;
+    font-size: x-large;
+}
+
+.image-f{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
